@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css">
 </head>
 
-<body>
-    <h2>Calculadora</h2>
-    <form method="POST" action="">
-        <input type="text" name="num1" placeholder="Número 1"><br>
-        <input type="text" name="num2" placeholder="Número 2"><br>
-        <input type="submit" value="Sumar">
-    </form>
+<body class="bg-light">
+    <div class="container col-md-4 offset-md-4">
+        <h2 class="text-center">Calculadora</h2>
+        <form method="POST" action="" class="form-group">
+            <input class="form-control mt-2 md-8" type="text" name="num1" placeholder="Número 1"><br>
+            <input class="form-control mt-2" type="text" name="num2" placeholder="Número 2"><br>
+            <input class="form-control mt-2" type="submit" value="Sumar">
+        </form>
+    </div>
+    
 </body>
 
 </html>
